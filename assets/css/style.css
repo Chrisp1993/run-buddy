@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: of 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -84,6 +84,7 @@ footer h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; 
+  align-items: flex-start;
 }
 /* Hero Style Ends*/
 
@@ -104,7 +105,7 @@ footer h2 {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 /*Hero form Style Ends Here*/
 
@@ -222,7 +223,7 @@ flex: 1 30%;
 }
 
 .section-title {
-font-size: 55px;
+font-size: 48px;
 color: #024e76;
 border-bottom: 3px solid;
 padding-bottom: 20px;
@@ -277,6 +278,31 @@ width: 50%;
 
 .trainer-bio p {
   font-size: 17px;
+}
+
+
+/* media query for smaller desktop screens and smaller */
+@media screen (max-width:980px){
+
+  /* this will be applied on any screen smaller than 980px */
+
+
+}
+
+/*media query for tablets nd smaller */
+@media screen (max-width: 768px) {
+  
+  /* this will be applied on any screens between 768px and 575px */
+  
+}
+
+/* media query for mobile phones and smaller */
+@media screen (max-width: 575px) {
+  
+    /*this will be applied on any screen smaller than 575px*/
+   
+  
+    
 }
 
 
